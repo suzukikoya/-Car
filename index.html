@@ -1,18 +1,193 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-    <meta charset="utf-8">
-    <title>ドットインストール</title>
-    
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSクリエイト様TOP</title>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
+<script>
+	$(function(){
+		$("#nav-toggle").on("click",function(){
+
+			$(this).toggleClass("open");
+		});
+	});
+</script>
+<script>$(function(){
+    $(".nav3").hide();
+    $("#nav-toggle").click(function(){
+        $(".nav3").toggle(300);
+    });
+});
+</script>
+    <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          let speed = 400; // ミリ秒で記述
+          let href= $(this).attr("href");
+          let target = $(href == "#" || href == "" ? 'html' : href);
+          let position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/style1.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <fieldset>
-    <legend>お使いのスマホ</legend>
-  <label><input type="checkbox"> iphone</label>
-  <label><input type="checkbox" checked> Android</label>
-  <label><input type="checkbox"> その他  </label>
-</fieldset>
-</select>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<div class="inner1">
+  <header class="header">
+    <h1><a href="index.html"><img src="img/logo.png" alt="エム・エス・クリエイト" width="228" height="79" id="top"/></a></h1>
+    <nav class="nav2">
+        <div id="nav-toggle"> 
+	<div class="w1000"> 
+	<span></span>
+      <span></span>
+      <span></span>
+    <nav class="nav3">
+<div class="logo_sp">
+  <figure><img src="img/logo-sp.png" width="172" height="61" alt="ロゴ"/></figure>
+  <figure><img src="img/lineicon-sp.png" width="60" height="60" alt="ラインアイコン"/></figure>
+  <figure><img src="img/instagram-sp.png" width="60" height="60" alt="インスタグラムアイコン"/></figure>
+</div>
+<ul>
+  <figure><img src="img/sideline.png" width="475" height="1" alt=""/></figure>
+  <li><img src="img/raighticon.png" alt="" width="10" height="12" class="tri"/><a href="#top">TOP</a></li>
+  <li><img src="img/raighticon.png" alt="" width="10" height="12" class="tri"/><a href="company.html">企業情報</a></li>
+  <li><img src="img/raighticon.png" alt="" width="10" height="12" class="tri"/><a href="#">採用情報</a></li>
+  <li><img src="img/raighticon.png" alt="" width="10" height="12" class="tri"/>弊社の製品・サービス一覧</li>
+  <li><img src="img/raighticon.png" alt="" width="10" height="12" class="tri"/><a href="#">歯科医師サポートツールおよびインフォメーション</a></li>
+  <p>
+    <figure><img src="img/sideline.png" width="475" height="1" alt=""/></figure>
+    </p>
+</ul>
+        <div class="box">
+          <h3>お電話でのお問い合わせ</h3>  
+          <p><img src="img/tel.png" alt="050-1340-4621" width="382" height="40" class="tell"/></p>
+          <p id="day2">月～金（土日・祝日休）9:00～18:30</p>
+        </div>
+    </nav>
+</div>
+		</div>
+        <div class="rwd">
+  <ul class="icon">
+    <li><a href="#"><img src="img/shnki.png" width="80" height="80" alt="新規のお客様"/></a></li>
+    <li><a href="#"><img src="img/kizon.png" width="80" height="80" alt="既存のお客さま"/></a></li>
+    <li><a href="#"><img src="img/instagram.png" width="80" height="80" alt="インスタグラム"/></a></li>
+    <li><a href="#"><img src="img/lineicon.png" width="80" height="80" alt="Line"/></a></li>
+  </ul>
+        </div>
+        <div class="menu"><span></span> </div>
+    </nav>
+
+  </header>
+	
+</div>
+<main class="main">
+<div class="inner">
+  <section class="sec1">
+    <h2>Policy</h2>
+    <p>当技工所では、「アレルギーを起こさない身体にやさしい技工物」の提供をモットーに、
+      バイオサティフィケート取得の材料を可能な限り使用しております。<br>
+      医療の世界は日進月歩、常に「良いもの」が生まれ、技術も進歩しています。<br>
+      私どもは海外企業と提携し、常に最新技術の情報を入手しながら製作に取り組み、
+      皆様への情報発信も行っております。</p>
+  </section>
+  <section class="sec2">
+    <div class="box-area">
+  <div class="box">
+    <h3><a href="#">弊社の製品<br>サービス一覧</a></h3>
+	<div class="menubar" style="transition-timing-function:ease;"></div>
+    <ul>
+      <li><img src="img/icon01.png" width="50" height="50" alt="ジルコニアアイコン"/><p>ジルコニア</p></li>
+      <li><img src="img/icon02.png" width="50" height="50" alt="インプラント補綴アイコン"/><p>インプラント補綴</p></li>
+      <li><img src="img/icon03.png" width="50" height="50" alt="プレスセラミックアイコン"/><p>プレスセラミック</p></li>
+      <li><img src="img/icon04.png" width="50" height="50" alt="ハレッ歯アイコン"/><p>ハレッ歯</p></li>
+      <li><img src="img/icon05.png" width="50" height="50" alt="フレキシブルデンチャーアイコン"/><p>フレキシブルデンチャー</p></li>
+      <li><img src="img/icon06.png" width="50" height="50" alt="金属床アイコン"/><p>金属床</p></li>
+    </ul>
+  </div>
+      <div class="box">
+        <h3>歯科医師サポートツール<br>
+          およびインフォメーション</h3>
+		<div class="menubar" style="transition-timing-function:ease;"></div>
+	<ul class="ico">
+      <li><img src="img/icon07.png" width="50" height="50" alt="テクニカルインフォメーションアイコン"/><p>テクニカルインフォメーション</p></li>
+      <li><img src="img/icon08.png" width="50" height="50" alt="MS info バックナンバー"/><p>MS info バックナンバー</p></li>
+      <li><img src="img/icon09.png" width="50" height="50" alt="患者啓蒙ツール"/><p>患者啓蒙ツール</p></li>
+    </ul>
+      </div>
+    </div>
+  </section>
+  <section class="sec3">
+    <h2>弊社の製品一例</h2>
+    <div class="box-area">
+      <div class="box">
+        <h3>ジルコニア</h3>
+		<div class="menubar" style="transition-timing-function:ease;"></div>
+        <p>弊社オリジナルの接着技術でナイロン<br>
+          樹脂とPMMAレジンの結合が実現し、<br>
+          チェアサイドでの修理が可能になった<br>
+          画期的なデンチャー。</p>
+        <figure><img src="img/detail.png" width="103" height="18" alt="詳しく見る"/></figure>
+      </div>
+      <div class="box">
+          <h3>フレキシブルデンチャー</h3>
+		  <div class="menubar" style="transition-timing-function:ease;"></div>
+        <p>歯を削らず抜かず、患者様の負担を<br>
+          最小限に歯を美しくすることが可能に。<br>
+          特許取得の審美回復方法<br>
+          （特許第5224432）</p>
+        <figure><img src="img/detail.png" width="103" height="18" alt="詳しく見る"/></figure>
+      </div>
+      <div class="box">
+        <h3>ハレッ歯</h3>
+		<div class="menubar" style="transition-timing-function:ease;"></div>
+        <p>20年以上フレキブルデンチャー<br>
+          （ノンクラスプデンチャー）に<br>
+          携わり、発祥国アメリカにて<br>
+          Certificate（修了証）を取得。</p>
+        <figure><img src="img/detail.png" width="103" height="18" alt="詳しく見る"/></figure>
+      </div> 
+    </div>
+  </section>
+</div>
+<div class="gotop">
+  <p><a href="#top"><img src="img/gotop.png" width="50" height="50" alt=""/></a></p>
+</div>
+</main>
+<footer class="footer">
+<div class="box-area">
+    <div class="box">
+  <h3>所在地</h3>
+      <p>〒232-0008　神奈川県横浜市南区庚台32-6</p>
+    </div>
+    <div class="box">
+  <h3>お電話でのお問い合わせ</h3>
+  <div class="box2" id="ex">
+    <p><img src="img/tel.png" width="382" height="40" alt="050-1340-4621"/></p>  
+  </div>
+    </div>
+  </div>
+	<p id="day">月～金（土日・祝日休）9:00～18:30</p>
+  <nav class="nav2">
+  <ul>
+    <li>
+      <p><a href="index.html">TOP</a></p>
+    </li>
+    <li><a href="company.html">企業情報</a></li>
+    <li><a href="#">採用情報</a></li>
+    <li><a href="#">新規のお客様</a></li>
+    <li><a href="#">既存のお客様</a></li>
+    </ul>
+  <figure><img src="img/footer-logo.png" width="365" height="30" alt="ロゴマーク"/></figure>
+  </nav>
+</footer>
 </body>
 </html>
-
