@@ -1,0 +1,18 @@
+footer{
+    min-height: 50vh;
+    background-color:;
+}
+
+footer li{
+    list-style: none;
+}
+
+
+aside{
+    background-color:#444C59;
+   
+}
+
+aside p{
+    color:#FFF ;
+}
