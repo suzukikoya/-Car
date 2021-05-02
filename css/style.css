@@ -37,6 +37,14 @@ li {
   color: rgba(255, 255, 255, 1);
 }
 
+.slick-next:before {
+  color: #000;
+}
+
+.slickimg {
+  width: 100%;
+}
+
 .top {
   background-image: url(../img/main1.jpg);
   background-color: rgba(255, 255, 255, 0.5);
@@ -163,5 +171,5 @@ a:hover {
 .gotop::before{
   content:'\f102';
   font-family:'Font Awesome 5 Free';
-  font-weight: 9000;
+  font-weight: 900;
 }
