@@ -45,6 +45,11 @@ li {
   width: 100%;
 }
 
+.slider p{
+  z-index: 4100000;
+
+}
+
 .top {
   background-image: url(../img/main1.jpg);
   background-color: rgba(255, 255, 255, 0.5);
