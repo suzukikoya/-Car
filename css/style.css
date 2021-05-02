@@ -172,3 +172,11 @@ a {
 aside{
   text-align: center;
 }
+
+.oil table{
+  width: 50%;
+}
+
+#price span{
+  color: red;
+}
