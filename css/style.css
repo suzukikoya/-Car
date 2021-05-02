@@ -17,10 +17,11 @@ header .menu ul {
   width: 800px;
   display: flex;
   justify-content: space-evenly;
-  padding-left: 1100px;
+  padding-left: 55%;
 }
 
 header {
+  width: 100%;
   background-color: #000;
   height: 120px;
   position: fixed;
@@ -53,9 +54,9 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 1020px;
   position: relative;
 }
+
 .top p {
   position: absolute;
   bottom: 50%;
