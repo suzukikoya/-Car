@@ -93,15 +93,10 @@ section img {
 
 .inspection table th:nth-of-type(1) {
   text-align: center;
-  background-color: #e0ffff;
 }
 
 .inspection table th {
   padding-left: 1%;
-}
-
-.inspection tr:nth-child(even) {
-  background-color: #f0ffff;
 }
 
 .basicinformation h2 {
