@@ -38,6 +38,10 @@ header li {
   color: rgba(255, 255, 255, 1);
 }
 
+header > nav > ul > li {
+  font-size: large;
+}
+
 .top {
   min-height: 150vh;
 }
@@ -171,10 +175,10 @@ aside {
   text-align: center;
 }
 
-.oil table{
+.oil table {
   width: 50%;
 }
 
-#price span{
+#price span {
   color: red;
 }
