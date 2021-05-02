@@ -51,7 +51,7 @@ header li {
   height: auto;
 }
 
-.main {
+main {
   text-align: center;
   width: 70%;
   margin: 0 auto;
@@ -79,9 +79,6 @@ section img {
 
 .inspection h2 {
   margin-top: 50px;
-}
-main {
-  text-align: center;
 }
 
 .basicinformation h2 {
@@ -131,8 +128,9 @@ td {
 }
 
 footer {
+  margin-top: 8%;
   text-align: center;
-  min-height: 20vh;
+  min-height: 30vh;
   background-color: #f5f5f5;
   padding-top: 2%;
 }
@@ -169,6 +167,6 @@ a {
   width: 100%;
 }
 
-aside{
+aside {
   text-align: center;
 }
