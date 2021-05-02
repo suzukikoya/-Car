@@ -7,6 +7,7 @@ $('.slider').slick({
 });
 
 
+// スムーススクロールの設定
 $(function () {
     $('a[href^="#"]').click(function () {
         var speed = 500;
