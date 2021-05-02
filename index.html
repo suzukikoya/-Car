@@ -7,20 +7,6 @@
   <title>（株）北海道カーメンテナンス</title>
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
-  <script>
-    $(function(){
-      // #で始まるリンクをクリックしたら実行されます
-      $('a[href^="#"]').click(function() {
-        // スクロールの速度
-        let speed = 400; // ミリ秒で記述
-        let href= $(this).attr("href");
-        let target = $(href == "#" || href == "" ? 'html' : href);
-        let position = target.offset().top;
-        $('body,html').animate({scrollTop:position}, speed, 'swing');
-        return false;
-      });
-    });
-  </script>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -179,7 +165,7 @@
 
   </main>
 
-    <a class="gotop" href="#top">TOP</a>
+  <div id="page_top"><a href="#"><i class="fas fa-angle-double-up fa-2x"></i></a></div>
 
   <footer>
     <ul>
