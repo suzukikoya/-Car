@@ -137,6 +137,7 @@ td {
 
 .contact h2 {
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .contact li {
@@ -195,3 +196,4 @@ aside {
 #price span {
   color: red;
 }
+
