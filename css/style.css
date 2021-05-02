@@ -49,42 +49,24 @@ header h1,li{
 
 .main{
   text-align: center;
-}
-
-.sell p{
-  border: 1px solid;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .sell h2{
   margin-top: 100px;
 }
 
-.parts p{
-  border: 1px solid;
-}
-
 .parts h2{
   margin-top: 50px;
-}
-
-.mainte p{
-  border: 1px solid;
 }
 
 .mainte h2{
   margin-top: 50px;
 }
 
-.oil p{
-  border: 1px solid;
-}
-
 .oil h2{
   margin-top: 50px;
-}
-
-.inspection p{
-  border: 1px solid;
 }
 
 .inspection h2{
