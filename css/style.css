@@ -33,12 +33,8 @@ header h1 {
   padding-left: 20px;
 }
 
-<<<<<<< HEAD
 header h1,
 header li {
-=======
-header h1,li {
->>>>>>> 023ab9fe1fe7cca88d28306b83be2aa004cd713f
   color: rgba(255, 255, 255, 1);
 }
 
@@ -166,4 +162,8 @@ a {
 
 .slider{
   width: 100%;
+}
+
+aside{
+  text-align: center;
 }
