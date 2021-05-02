@@ -33,13 +33,13 @@ header h1 {
   padding-left: 20px;
 }
 
-<<<<<<< HEAD
 header h1,
 header li {
-=======
-header h1,li {
->>>>>>> 023ab9fe1fe7cca88d28306b83be2aa004cd713f
   color: rgba(255, 255, 255, 1);
+}
+
+.top {
+  min-height: 150vh;
 }
 
 .slick-next:before {
@@ -48,6 +48,7 @@ header h1,li {
 
 .slickimg {
   width: 100%;
+  height: auto;
 }
 
 .main {
@@ -164,6 +165,6 @@ a {
   text-decoration: none;
 }
 
-.slider{
+.slider {
   width: 100%;
 }
