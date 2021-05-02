@@ -38,12 +38,17 @@ header li {
   color: rgba(255, 255, 255, 1);
 }
 
+.top {
+  min-height: 150vh;
+}
+
 .slick-next:before {
   color: #000;
 }
 
 .slickimg {
   width: 100%;
+  height: auto;
 }
 
 .main {
@@ -160,7 +165,7 @@ a {
   text-decoration: none;
 }
 
-.slider{
+.slider {
   width: 100%;
 }
 
