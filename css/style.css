@@ -70,6 +70,10 @@ li {
   margin: 0 auto;
 }
 
+section img {
+  width: 50%;
+}
+
 .sell h2 {
   margin-top: 100px;
 }
