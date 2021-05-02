@@ -33,8 +33,12 @@ header h1 {
   padding-left: 20px;
 }
 
+<<<<<<< HEAD
 header h1,
 header li {
+=======
+header h1,li {
+>>>>>>> 023ab9fe1fe7cca88d28306b83be2aa004cd713f
   color: rgba(255, 255, 255, 1);
 }
 
@@ -44,25 +48,6 @@ header li {
 
 .slickimg {
   width: 100%;
-}
-
-.top {
-  background-image: url(../img/main1.jpg);
-  background-color: rgba(255, 255, 255, 0.5);
-  background-blend-mode: lighten;
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
-}
-
-.top p {
-  position: absolute;
-  bottom: 50%;
-  left: 40%;
-  font-size: 50px;
-  color: #000;
 }
 
 .main {
@@ -177,4 +162,8 @@ a {
 #page_top a:hover {
   background-color: #666;
   text-decoration: none;
+}
+
+.slider{
+  width: 100%;
 }
