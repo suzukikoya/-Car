@@ -137,12 +137,10 @@ td {
 
 .contact h2 {
   margin-top: 50px;
-  margin-bottom: 20px;
 }
 
-.contact li {
-  list-style: none;
-  margin-top: 1%;
+figure {
+  margin-top: 3%;
 }
 
 footer {
@@ -196,4 +194,3 @@ aside {
 #price span {
   color: red;
 }
-
