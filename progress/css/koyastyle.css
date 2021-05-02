@@ -1,5 +1,10 @@
+@charset "utf-8";
 main {
   text-align: center;
+}
+
+.basicinformation h2 {
+  margin-top: 50px;
 }
 
 table {
@@ -27,8 +32,16 @@ td {
   width: 70%;
 }
 
+.address h2{
+  margin-top: 50px;
+}
+
 .address p {
   opacity: 0.5;
+}
+
+.contact h2{
+  margin-top: 50px;
 }
 
 footer {
