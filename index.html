@@ -5,6 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>（株）北海道カーメンテナンス</title>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.smoothscroll.js"></script>
+  <script>
+    $(function(){
+      // #で始まるリンクをクリックしたら実行されます
+      $('a[href^="#"]').click(function() {
+        // スクロールの速度
+        let speed = 400; // ミリ秒で記述
+        let href= $(this).attr("href");
+        let target = $(href == "#" || href == "" ? 'html' : href);
+        let position = target.offset().top;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
+      });
+    });
+  </script>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
@@ -12,16 +28,16 @@
 <body>
 
   <header>
-    <h1>北海道カーメンテナンス</h1>
+    <h1><a href="index.html" id="gotop">北海道カーメンテナンス</a></h1>
     <nav class="menu">
       <ul>
-        <li>販売</li>
-        <li>パーツ持ち込み取り付け</li>
-        <li>整備・修理・塗装・板金</li>
-        <li>オイル交換</li>
-        <li>車検</li>
-        <li>所在地</li>
-        <li>お問い合わせ</li>
+        <li><a href="#sell">販売</a></li>
+        <li><a href="#parts">パーツ持ち込み取り付け</a></li>
+        <li><a href="#mainte">整備・修理・塗装・板金</a></li>
+        <li><a href="#oil">オイル交換</a></li>
+        <li><a href="#inspection">車検</a></li>
+        <li><a href="#address">所在地</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
@@ -32,41 +48,41 @@
 
   <main class="main">
     <section class="sell">
-      <h2>販売</h2>
+      <h2 id="sell">販売</h2>
       <p>
         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
       </p>
     </section>
 
     <section section class="parts">
-      <h2>パーツ持ち込み貼り付け</h2>
+      <h2 id="parts">パーツ持ち込み貼り付け</h2>
       <p>
         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
       </p>
     </section>
 
     <section class="mainte">
-      <h2>整備・修理・塗装・板金</h2>
+      <h2 id="mainte">整備・修理・塗装・板金</h2>
       <p>
         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
       </p>
     </section>
 
     <section class="oil">
-      <h2>オイル交換</h2>
+      <h2 id="oil">オイル交換</h2>
       <p>
         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
       </p>
     </section>
 
     <section class="inspection">
-      <h2>車検</h2>
+      <h2 id="inspection">車検</h2>
       <p>
         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
       </p>
     </section>
     <section class="basicinformation">
-      <h2>基本情報</h2>
+      <h2 id="basicinformation">基本情報</h2>
       <table>
         <tr>
           <th>法人名</th>
@@ -134,7 +150,7 @@
     </section>
 
     <section class="address">
-      <h2>所在地</h2>
+      <h2 id="address">所在地</h2>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.6316675571807!2d141.64054591570525!3d42.901717408714134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f74d9c3734ecd01%3A0x6388b30ba8f08314!2z44CSMDY2LTAwMDIg5YyX5rW36YGT5Y2D5q2z5biC6Yec5Yqg77yT77yQ77yX4oiS77yT!5e0!3m2!1sja!2sjp!4v1619873120847!5m2!1sja!2sjp"
         width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -142,11 +158,12 @@
     </section>
 
     <section class="contact">
-      <h2>お問い合わせ</h2>
+      <h2 id="contact">お問い合わせ</h2>
       とりあえず保留
     </section>
-
   </main>
+
+    <a class="gotop" href="#top">TOP</a>
 
   <footer>
     <ul>

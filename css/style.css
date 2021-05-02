@@ -23,6 +23,8 @@ header .menu ul {
 header {
   background-color: #000;
   height: 120px;
+  position: fixed;
+  z-index: 5;
 }
 
 header h1 {
@@ -142,69 +144,24 @@ aside {
   padding-left: 3%;
 }
 
-<<<<<<< HEAD
-footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}footer li {
-  list-style: none;
-  margin-top: 1%;
-}
-=======
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
 }
 
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
+/*
+a:hover {
+	text-decoration: underline;
+}
+*/
+
+.gotop  {
+  margin-left: 95%;
+  color: #000;
 }
 
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
+.gotop::before{
+  content:'\f102';
+  font-family:'Font Awesome 5 Free';
+  font-weight: 9000;
 }
-
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
-}
-
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
-}
-
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
-}
-
-aside {
-  background-color: #444c59;
-  color: #fff;
-  padding-left: 3%;
-}
->>>>>>> de1e5e08a06b1c33528748bfffa2631c6c05d946
