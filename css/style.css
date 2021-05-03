@@ -187,13 +187,13 @@ aside {
   color: red;
 }
 
-.inspection h3{
+.inspection h3 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.inspection h4{
-  border-left: 5px solid #C79032;
+.inspection h4 {
+  border-left: 5px solid #c79032;
   max-width: 140px;
   text-align: left;
   margin-left: 25%;
@@ -201,12 +201,12 @@ aside {
   padding-left: 0.5%;
 }
 
-.inspection p{
+.inspection p {
   margin-left: 26%;
   text-align: left;
 }
 
-.inspection #come{
+.inspection #come {
   margin-top: 2.5%;
   text-align: center;
   font-weight: bold;
