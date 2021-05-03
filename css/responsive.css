@@ -5,7 +5,7 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 99;
+    z-index: 101;
     width: 60px;
     height: 60px;
     display: flex;
@@ -41,10 +41,7 @@
     box-sizing: border-box;
   }
 
-  /*----------------------------
-* アニメーション部分
-*----------------------------*/
-
+  /* アニメーション部分  始まり*/
   /* アニメーション前のメニューの状態 */
   .menu {
     transform: translateX(100vw);
@@ -54,10 +51,28 @@
   .menu.is-active {
     transform: translateX(0);
   }
+  /* アニメーション部分  終わり*/
+
+  .menu__item a {
+    color: seashell;
+    font-size: x-large;
+    text-decoration: none;
+  }
 
   header {
     height: 100px;
     /* background-color: red; */
+  }
+
+  header img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  header h1 {
+    padding-left: 0px;
+    margin-left: 27%;
+    margin-right: 10%;
   }
 
   nav {
@@ -101,5 +116,11 @@
     border-bottom: none;
     display: block;
     width: 100%;
+  }
+
+  header h1 {
+    max-width: 70%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
