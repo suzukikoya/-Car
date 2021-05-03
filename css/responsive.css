@@ -8,6 +8,24 @@
   section img {
     width: 100%;
   }
+
+
+  table{
+    width: 90%;
+  }
+
+  .inspection h4, .inspection p{
+    margin-left: 0%;
+  }
+
+  .oil table{
+    width: 100%;
+  }
+
+  footer img{
+    max-width: 100%;
+  }
+
 }
 
 /* スマホ対応 */
