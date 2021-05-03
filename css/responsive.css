@@ -1,5 +1,13 @@
 /* タブレット対応 */
 @media (max-width: 1000px) {
+  header {
+    height: 100px;
+    /* background-color: red; */
+  }
+
+  section img {
+    width: 100%;
+  }
 }
 
 /* スマホ対応 */
