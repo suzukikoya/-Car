@@ -40,14 +40,6 @@ header > nav > ul > li {
   font-weight: bold;
 }
 
-.top {
-  min-height: 150vh;
-}
-
-.slick-next:before {
-  color: #000;
-}
-
 .slickimg {
   width: 100%;
   height: auto;
