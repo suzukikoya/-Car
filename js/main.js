@@ -40,3 +40,8 @@ $(function () {
         return false;
     });
 });
+
+// 下記の説明　ハンバーガーメニュー
+$('.menu-btn').on('click', function() {
+    $('.menu').toggleClass('is-active');
+  });
