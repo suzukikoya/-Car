@@ -5,6 +5,10 @@
     /* background-color: red; */
   }
 
+  nav {
+    display: none;
+  }
+
   section img {
     width: 100%;
   }
