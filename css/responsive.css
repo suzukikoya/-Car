@@ -14,19 +14,19 @@
   }
 
 
-  table{
+  table {
     width: 90%;
   }
 
-  .inspection h4, .inspection p{
+  .inspection h4, .inspection p {
     margin-left: 0%;
   }
 
-  .oil table{
+  .oil table {
     width: 100%;
   }
 
-  footer img{
+  footer img {
     max-width: 100%;
   }
 
@@ -35,15 +35,15 @@
 /* スマホ対応 */
 @media (max-width: 670px) {
  
-  .inspection h4{
+  .inspection h4 {
     margin-top: 20px;
   }
 
-  footer img{
+  footer img {
     max-width: 80%;
   }
 
-  th,td{
+  th,td {
     border-bottom: none;
     display: block;
     width: 100%;
