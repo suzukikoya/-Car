@@ -1,5 +1,21 @@
 /* タブレット対応 */
 @media (max-width: 1000px) {
+  /* メニュー開閉ボタン */
+  .menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255, 0.8);
+    /* 下記の説明　文字の色を指定してあげているからhtmlで<i></i>の中に文字を入力してあげる(今回は文字コードを指定している) */
+    color: black;
+  }
+
   header {
     height: 100px;
     /* background-color: red; */
@@ -13,23 +29,22 @@
     width: 100%;
   }
 
-
-  table{
+  table {
     width: 90%;
   }
 
-  .inspection h4, .inspection p{
+  .inspection h4,
+  .inspection p {
     margin-left: 0%;
   }
 
-  .oil table{
+  .oil table {
     width: 100%;
   }
 
-  footer img{
+  footer img {
     max-width: 100%;
   }
-
 }
 
 /* スマホ対応 */
