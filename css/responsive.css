@@ -49,4 +49,18 @@
 
 /* スマホ対応 */
 @media (max-width: 670px) {
+ 
+  .inspection h4{
+    margin-top: 20px;
+  }
+
+  footer img{
+    max-width: 80%;
+  }
+
+  th,td{
+    border-bottom: none;
+    display: block;
+    width: 100%;
+  }
 }
