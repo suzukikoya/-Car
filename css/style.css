@@ -96,6 +96,10 @@ section img {
   width: 50%;
 }
 
+.oil table {
+  width: 100%;
+}
+
 #price span {
   color: red;
 }
@@ -244,10 +248,5 @@ aside {
   transform: translate(-50%, -50%);
   display: none;
   z-index: 9999;
-
 }
 /* 更新時アニメーション */
-
-.oil table {
-  width: 100%;
-}
