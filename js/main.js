@@ -44,4 +44,8 @@ $(function () {
 // 下記の説明　ハンバーガーメニュー
 $('.menu-btn').on('click', function() {
     $('.menu').toggleClass('is-active');
+});
+  
+$('.menu__item').on('click', function() {
+    $('.menu').removeClass('is-test');
   });

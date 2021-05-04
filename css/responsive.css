@@ -11,9 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255, 255, 255, 0.8);
+    background-color: #c0c0c0;
     /* 下記の説明　文字の色を指定してあげているからhtmlで<i></i>の中に文字を入力してあげる(今回は文字コードを指定している) */
-    color: black;
+    color: #ffffff;
   }
 
   /*----------------------------
@@ -50,6 +50,10 @@
   /* アニメーション後のメニューの状態 */
   .menu.is-active {
     transform: translateX(0);
+  }
+
+  .menu.test {
+    transform: translateX(1);
   }
   /* アニメーション部分  終わり*/
 
