@@ -236,6 +236,7 @@ aside {
   width: 100%;
   z-index: 9000;
 }
+
 .start p {
   position: fixed;
   left: 50%;
@@ -243,7 +244,7 @@ aside {
   transform: translate(-50%, -50%);
   display: none;
   z-index: 9999;
-  width: 280px;
+
 }
 /* 更新時アニメーション */
 
