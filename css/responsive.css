@@ -52,7 +52,7 @@
     transform: translateX(0);
   }
 
-  .menu.test {
+  .menu.is-active-close {
     transform: translateX(0px);
   }
   /* アニメーション部分  終わり*/
@@ -107,12 +107,22 @@
 
 /* スマホ対応 */
 @media (max-width: 670px) {
+  header h1 {
+    max-width: 60%;
+    margin-left: 0%;
+    margin-right: 0;
+  }
+
   .inspection h4 {
     margin-top: 20px;
   }
 
   footer img {
-    max-width: 80%;
+    max-width: 60%;
+  }
+
+  table {
+    width: 100%;
   }
 
   th,
@@ -121,11 +131,23 @@
     display: block;
     width: 100%;
   }
-
-  header h1 {
-    max-width: 70%;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
+/* @media (max-width: 370px) {
+  header {
+    height: 60px;
+  }
+
+  header h1 {
+    padding-top: 10px;
+  }
+
+  .menu-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  section h2 {
+    font-size: large;
+  }
+} */

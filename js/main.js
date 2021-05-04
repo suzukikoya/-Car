@@ -49,5 +49,5 @@ $('.menu-btn').on('click', function() {
   
 $('.menu__item a').on('click', function () {
     $('.menu').removeClass('is-active');
-    $('.menu').toggleClass('is-test');
+    $('.menu').toggleClass('is-active-close');
   });
