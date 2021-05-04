@@ -52,7 +52,7 @@
     transform: translateX(0);
   }
 
-  .menu.test {
+  .menu.is-active-close {
     transform: translateX(0px);
   }
   /* アニメーション部分  終わり*/
@@ -133,7 +133,7 @@
   }
 }
 
-@media (max-width: 370px) {
+/* @media (max-width: 370px) {
   header {
     height: 60px;
   }
@@ -150,4 +150,4 @@
   section h2 {
     font-size: large;
   }
-}
+} */
