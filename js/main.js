@@ -52,6 +52,7 @@ $('.menu__item a').on('click', function () {
     $('.menu a').toggleClass('active-close');
   });
 
+  // 更新時アニメーション //
   $(function() {
 	setTimeout(function(){
 		$('.start p').fadeIn(1600);

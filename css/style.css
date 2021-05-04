@@ -227,7 +227,7 @@ aside {
   text-align: left;
 }
 
-/*更新時アニメーション */
+/* 更新時アニメーション */
 .start {
 	background: #FFF;
 	position: fixed;
@@ -246,7 +246,7 @@ aside {
 	z-index: 9999;
 	width: 280px;
 }
-/* アニメーション */
+/* 更新時アニメーション */
 
 .oil table{
   width: 100%;
