@@ -82,10 +82,9 @@ main {
 
 main > section > h2 {
   margin-top: 85px;
-
 }
 
-main section p{
+main section p {
   font-size: 1.2em;
 }
 
@@ -215,39 +214,39 @@ aside {
   margin-right: auto;
 }
 
-.inner h2{
+.inner h2 {
   margin-top: 50px;
 }
 
-.inner  img{
+.inner img {
   width: 100%;
 }
 
-.inner p{
+.inner p {
   text-align: left;
 }
 
 /*更新時アニメーション */
 .start {
-	background: #FFF;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 9000;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
 }
 .start p {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	z-index: 9999;
-	width: 280px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+  width: 280px;
 }
 /* アニメーション */
 
-.oil table{
+.oil table {
   width: 100%;
 }

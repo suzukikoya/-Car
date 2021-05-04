@@ -104,14 +104,9 @@
     max-width: 100%;
   }
 
-  main section h2{
-    font-size: 1.8em;
-  }
-
-  .inner{
+  .inner {
     width: 100%;
   }
-
 }
 
 /* スマホ対応 */
@@ -160,4 +155,3 @@
     font-size: large;
   }
 }
-
