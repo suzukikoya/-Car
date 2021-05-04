@@ -73,6 +73,11 @@ main {
 
 main > section > h2 {
   margin-top: 85px;
+  font-size: 2.5em;
+}
+
+main section p{
+  font-size: 1.2em;
 }
 
 .main-hr {
@@ -199,3 +204,21 @@ aside {
   text-decoration: none;
 }
 /* 「トップへ戻るボタン」終わり */
+
+.inner {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner h2{
+  margin-top: 50px;
+}
+
+.inner  img{
+  width: 100%;
+}
+
+.inner p{
+  text-align: left;
+}
