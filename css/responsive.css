@@ -48,11 +48,11 @@
     transition: all 0.3s linear;
   }
   /* アニメーション後のメニューの状態 */
-  .menu.is-active {
+  .menu.active {
     transform: translateX(0);
   }
 
-  .menu.is-active-close {
+  .menu.active-close {
     transform: translateX(0px);
   }
   /* アニメーション部分  終わり*/
@@ -133,7 +133,7 @@
   }
 }
 
-/* @media (max-width: 370px) {
+@media (max-width: 370px) {
   header {
     height: 60px;
   }
@@ -150,4 +150,4 @@
   section h2 {
     font-size: large;
   }
-} */
+}

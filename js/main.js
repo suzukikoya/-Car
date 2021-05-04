@@ -44,11 +44,11 @@ $(function () {
 // 下記の説明　ハンバーガーメニュー
 
 $('.menu-btn').on('click', function() {
-    $('.menu').toggleClass('is-active');
+    $('.menu').toggleClass('active');
 });
   
 $('.menu__item a').on('click', function () {
-    $('.menu').removeClass('is-active');
-    $('.menu').toggleClass('is-active-close');
+    $('.menu').removeClass('active');
+    $('.menu a').toggleClass('active-close');
   });
   
