@@ -110,13 +110,13 @@
 }
 
 /* スマホ対応 */
-@media (max-width: 670px) {
+@media (max-width: 750px) {
   header {
     height: 60px;
   }
 
   header h1 {
-    padding-top: 15px;
+    padding-top: 10px;
   }
 
   .menu-btn {
