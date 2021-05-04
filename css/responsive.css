@@ -107,7 +107,6 @@
   .inner {
     width: 100%;
   }
-
 }
 
 /* スマホ対応 */
@@ -136,11 +135,6 @@
     display: block;
     width: 100%;
   }
-
-  .start p{
-    width: 10px;
-  }
-
 }
 
 @media (max-width: 400px) {
@@ -159,5 +153,9 @@
 
   section h2 {
     font-size: large;
+  }
+
+  .startimg {
+    width: 280px;
   }
 }
