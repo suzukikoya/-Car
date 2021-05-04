@@ -46,6 +46,7 @@ $('.menu-btn').on('click', function() {
     $('.menu').toggleClass('is-active');
 });
   
-$('.menu__item').on('click', function() {
-    $('.menu').removeClass('is-test');
+$('.menu__item a').on('click', function () {
+    $('.menu').removeClass('is-active');
+    $('.menu').toggleClass('is-test');
   });
