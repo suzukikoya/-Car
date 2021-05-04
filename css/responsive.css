@@ -137,9 +137,13 @@
     width: 100%;
   }
 
+  .start p{
+    width: 10px;
+  }
+
 }
 
-@media (max-width: 370px) {
+@media (max-width: 400px) {
   header {
     height: 60px;
   }

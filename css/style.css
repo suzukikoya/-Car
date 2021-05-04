@@ -227,6 +227,7 @@ aside {
 }
 
 /* 更新時アニメーション */
+
 .start {
   background: #fff;
   position: fixed;
@@ -239,12 +240,13 @@ aside {
 
 .start p {
   position: fixed;
+  padding: 5px 15px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   display: none;
   z-index: 9999;
-
+  max-width: 100%;
 }
 /* 更新時アニメーション */
 
